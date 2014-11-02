@@ -1,0 +1,3 @@
+# non voglio il sito in nessun motore di ricerca
+User-agent: *
+Disallow: /
