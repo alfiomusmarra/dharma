@@ -1,6 +1,6 @@
 <?php
  
-echo 'Benvenuto in <b>Dharma</b>, il Lato Oscuro di Gaia<br>';
+echo 'Benvenuto in <b>Dharma</b>, il Lato Oscuro di CriCatania<br>';
 echo 'Per utilizzare questa applicazione devi prima effettuare il login.';
 		?>	
 			<p>
