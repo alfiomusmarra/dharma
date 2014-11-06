@@ -15,6 +15,8 @@ $passworddeldatabase='INSERIRE QUI';//inserire qui la password del database,
 
 $myCifrario->mc_encrypt($passworddelsistema,$passworddelprimoutente);
 
+$myCifrario->mc_encrypt($passworddeldatabase,$passworddelprimoutente);
+
 $hashpass= md5($passworddelprimoutente);
 
 $cryptpass=$myCifrario->encoded;
