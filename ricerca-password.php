@@ -9,7 +9,7 @@ $ricerca=mysql_query("select distinct * from config");
 
 
 $my_Tabellahtml= new Tabellahtml; //APRO L'OGGETTO
-$my_Tabellahtml->opentable(1,0,1,700);//PASSO I PARAMETRI DELLA TABELLA
+$my_Tabellahtml->opentable(1,0,1,"100%");//PASSO I PARAMETRI DELLA TABELLA
 $my_Cifrario= new Cifrario;
 
 $columns=array();

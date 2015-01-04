@@ -1,3 +1,6 @@
+	</body>
+</html>
+
 <?php
-$my_Database->disconnessione();
+	$my_Database->disconnessione();
 ?>
