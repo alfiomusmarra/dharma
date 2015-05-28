@@ -5,7 +5,7 @@ include 'inc/menu.inc.php'; //carica la barra con il menu solo se si è loggati
 $ricerca=mysql_query("select distinct * from users");
 
 $my_Tabellahtml= new Tabellahtml; //crea una nuova istanza della classe che crea le tabelle html
-$my_Tabellahtml->opentable(1,0,1,"100%");//PASSO I PARAMETRI GENERALI DELLA TABELLA
+$my_Tabellahtml->opentable(1,0,1,700);//PASSO I PARAMETRI GENERALI DELLA TABELLA
 
 $columns=array();
 $extracolumn1="modifica - <a href='javascript:AlertEliminaUtente(";//definisco il contenuno di una colonna aggiuntiva da aggiungere alla tabella 
